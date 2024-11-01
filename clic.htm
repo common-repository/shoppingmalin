@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Redirection vers la boutique.</title>
+    <meta name="robots" content="noindex">
+  </head>
+<body>
+  <script>
+    var Adresse = window.location.href;
+    var Tab = Adresse.split("?URL=");
+    var URL = decodeURIComponent( Tab[1] );
+    top.location.href=URL;
+  </script>
+</body>
+</html>
+

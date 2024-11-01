@@ -1,0 +1,87 @@
+
+/* #### Inscription et Activation #### */
+
+.shoppingmalin_ia {
+  margin-top: 2em;  max-width: 590px;
+}
+
+.shoppingmalin_ia_description {
+  float: left;  font-size: 16px;
+}
+
+.shoppingmalin_ia_input {
+  width: 220px;  margin-top: 15px;  margin-right: 10px;
+}
+
+.shoppingmalin_inscription {
+  border-radius: 3px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background: #fff;
+  padding: 30px;
+  margin-right: 10px;
+}
+
+.shoppingmalin_inscription .button  {
+  margin-top: 15px;  width: 160px;
+}
+
+.shoppingmalin_activation {
+  border-radius: 3px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background: #ddd;
+  padding: 30px;
+  margin-right: 10px;
+}
+
+.shoppingmalin_activation .button  {
+  margin-top: 15px;  width: 160px;
+}
+
+.shoppingmalin_right {
+  float: right;
+}
+
+/* ####### Page de configuration ####### */
+
+.shoppingmalin_titre {
+  width:160px;
+  vertical-align: top;
+}
+
+.shoppingmalin_chargement {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 555px;
+  height: 395px;
+  text-align: center;
+  z-index:1003;
+  overflow: auto;
+}
+
+.shoppingmalin_help {
+  display: none;
+  position: absolute;
+  background-color: #FF0000;
+  top: 50px;
+  left: 0px;
+  width: 580px;
+  height: 395px;
+  background-color: white;
+  z-index:1002;
+  overflow: auto;
+}
+
+.shoppingmalin_message {
+  display: none;
+}
+
+.shoppingmalin_td12 {
+  width: 220px;
+}
+
+.shoppingmalin_td3 {
+  width: 340px;
+}
